@@ -3,6 +3,10 @@ $(document).ready(function () {
         $('.header__burger, .header__menu, .header__logo, header input[type="button"]').toggleClass('active');
         $('body').toggleClass('lock');
     });
+    $('.header__link').click(function (event) {
+        $('.header__burger, .header__menu, .header__logo, header input[type="button"]').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
 
     let position = 0;
     const slidesToShow = 2.5;

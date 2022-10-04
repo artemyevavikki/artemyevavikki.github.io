@@ -228,6 +228,11 @@
         background-color: #DBDEE7;
         margin: 0 0 1.5rem 0;
     }
+    .header-contacts a {
+        text-decoration: none;
+        color: white
+    }
+
     .header__social-media ul {
         display: flex;
     }
@@ -983,7 +988,8 @@
     }
     .header__link-desk {
         text-decoration: none;
-        padding-right: 1.25rem;
+        margin-right: 1.25rem;
+        padding: 0.2rem;
         color: white;
         font-family: 'SansRoundedLightC';
     }
@@ -991,6 +997,10 @@
         padding: 0;
     }
 
+    .header__link-desk:hover {
+        color: #6B37D4;
+        background-color: white;
+    }
 
 
     /* header (end) */

@@ -1,15 +1,23 @@
 @font-face {
-    font-family: 'SansRoundedC', "Comic Sans MS";
+    font-family: 'SansRoundedC', reserve;
     src: url("fonts/SansRoundedC/SansRoundedC.otf"),
     url("fonts/SansRoundedC/SansRoundedC.woff"),
     url("fonts/SansRoundedC/SansRoundedC.woff2");
 }
 
 @font-face {
-    font-family: 'SansRoundedLightC', "Trebuchet MS", sans-serif;
+    font-family: 'SansRoundedLightC', reserve;
     src: url("fonts/SansRoundedLightC/SansRoundedLightC.otf"),
     url("fonts/SansRoundedLightC/SansRoundedLightC.woff"),
     url("fonts/SansRoundedLightC/SansRoundedLightC.woff2");
+}
+
+@font-face {
+    font-family: 'reserve', cursive;
+    src: url("fonts/SansRoundedC/SansRoundedC.otf"),
+    url("fonts/SansRoundedC/SansRoundedC.woff"),
+    url("fonts/SansRoundedC/SansRoundedC.woff2");
+    font-weight: 900;
 }
 
 @media (min-width: 1px) {

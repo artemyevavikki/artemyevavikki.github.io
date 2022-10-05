@@ -1,16 +1,52 @@
 @font-face {
-    font-family: 'SansRoundedC', reserve;
-    src: url("fonts/SansRoundedC/SansRoundedC.ttf") format('truetype'),
-    url("fonts/SansRoundedC/SansRoundedC.woff2"),
-    url("fonts/SansRoundedC/SansRoundedC.woff"),
-    url("fonts/SansRoundedC/SansRoundedC.otf"),
-    url("fonts/SansRoundedC/SansRoundedC.eot"),
-    url("fonts/SansRoundedC/SansRoundedC.svg");
+    font-family: 'SansRoundedC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/SansRoundedC/SansRoundedC.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'SansRoundedC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/SansRoundedC/SansRoundedC.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'SansRoundedC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/SansRoundedC/SansRoundedC.woff") format('woff');
+}
+@font-face {
+    font-family: 'SansRoundedC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/SansRoundedC/SansRoundedC.otf") format('opentype');
+}
+@font-face {
+    font-family: 'SansRoundedC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/SansRoundedC/SansRoundedC.eot");
+}
+@font-face {
+    font-family: 'SansRoundedC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/SansRoundedC/SansRoundedC.eot?#iefix") format('embedded-opentype');
+}
+@font-face {
+    font-family: 'SansRoundedC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/SansRoundedC/SansRoundedC.svg");
 }
 
+
 @font-face {
-    font-family: 'SansRoundedLightC', reserve;
-    src:         url("fonts/SansRoundedLightC/SansRoundedLightC.ttf") format('truetype'),
+    font-family: 'SansRoundedLightC';
+    font-style: normal;
+    font-weight: 300;
+    src: url("fonts/SansRoundedLightC/SansRoundedLightC.ttf") format('truetype'),
     url("fonts/SansRoundedLightC/SansRoundedLightC.woff2"),
     url("fonts/SansRoundedLightC/SansRoundedLightC.woff"),
     url("fonts/SansRoundedLightC/SansRoundedLightC.otf"),
@@ -18,13 +54,12 @@
     url("fonts/SansRoundedLightC/SansRoundedLightC.svg");
 }
 
-@font-face {
-    font-family: 'reserve', cursive;
-    src: url("fonts/SansRoundedC/SansRoundedC.otf"),
-    url("fonts/SansRoundedC/SansRoundedC.woff"),
-    url("fonts/SansRoundedC/SansRoundedC.woff2");
-    font-weight: 900 !important;
-}
+
+
+
+
+
+
 
 @media (min-width: 1px) {
     html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {

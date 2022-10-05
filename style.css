@@ -1,17 +1,19 @@
 @font-face {
     font-family: 'SansRoundedC', reserve;
-    src: url("fonts/SansRoundedC/SansRoundedC.otf"),
+    src:     url("fonts/SansRoundedC/SansRoundedC.woff2"),
     url("fonts/SansRoundedC/SansRoundedC.woff"),
-    url("fonts/SansRoundedC/SansRoundedC.woff2"),
+    url("fonts/SansRoundedC/SansRoundedC.ttf"),
+    url("fonts/SansRoundedC/SansRoundedC.otf"),
     url("fonts/SansRoundedC/SansRoundedC.eot"),
     url("fonts/SansRoundedC/SansRoundedC.svg");
 }
 
 @font-face {
     font-family: 'SansRoundedLightC', reserve;
-    src: url("fonts/SansRoundedLightC/SansRoundedLightC.otf"),
+    src:     url("fonts/SansRoundedLightC/SansRoundedLightC.woff2"),
     url("fonts/SansRoundedLightC/SansRoundedLightC.woff"),
-    url("fonts/SansRoundedLightC/SansRoundedLightC.woff2"),
+    url("fonts/SansRoundedLightC/SansRoundedLightC.ttf"),
+    url("fonts/SansRoundedLightC/SansRoundedLightC.otf"),
     url("fonts/SansRoundedLightC/SansRoundedLightC.eot"),
     url("fonts/SansRoundedLightC/SansRoundedLightC.svg");
 }

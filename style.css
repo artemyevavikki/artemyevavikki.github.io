@@ -42,16 +42,48 @@
 }
 
 
+
 @font-face {
     font-family: 'SansRoundedLightC';
     font-style: normal;
-    font-weight: 300;
-    src: url("fonts/SansRoundedLightC/SansRoundedLightC.ttf") format('truetype'),
-    url("fonts/SansRoundedLightC/SansRoundedLightC.woff2"),
-    url("fonts/SansRoundedLightC/SansRoundedLightC.woff"),
-    url("fonts/SansRoundedLightC/SansRoundedLightC.otf"),
-    url("fonts/SansRoundedLightC/SansRoundedLightC.eot"),
-    url("fonts/SansRoundedLightC/SansRoundedLightC.svg");
+    font-weight: 400;
+    src: url("fonts/SansRoundedLightC/SansRoundedLightC.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'SansRoundedLightC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/SansRoundedLightC/SansRoundedLightC.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'SansRoundedLightC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/SansRoundedLightC/SansRoundedLightC.woff") format('woff');
+}
+@font-face {
+    font-family: 'SansRoundedLightC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/SansRoundedLightC/SansRoundedLightC.otf") format('opentype');
+}
+@font-face {
+    font-family: 'SansRoundedLightC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/SansRoundedLightC/SansRoundedLightC.eot");
+}
+@font-face {
+    font-family: 'SansRoundedLightC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/SansRoundedLightC/SansRoundedLightC.eot?#iefix") format('embedded-opentype');
+}
+@font-face {
+    font-family: 'SansRoundedLightC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/SansRoundedLightC/SansRoundedLightC.svg");
 }
 
 

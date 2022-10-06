@@ -316,6 +316,9 @@
 
 
 
+    .banner__img, .delivery-сhange__img {
+        display: none;
+    }
     /* content (start) */
     .content {
         text-align: center;
@@ -359,10 +362,6 @@
     .banner__img-container {
         display: flex;
         justify-content: flex-end;
-    }
-    .banner__img {
-        /*padding-top: 1.5rem;*/
-        max-width: 100%;
     }
     .mob-banner__img {
         max-width: 100%;
@@ -459,8 +458,11 @@
     .delivery-сhange {
         padding: 3rem 0 2rem 0;
     }
-    .delivery-сhange__img {
-        max-width: 90%;
+    .medium-delivery-сhange__img {
+        display: none;
+    }
+    .mob-delivery-сhange__img {
+        max-width: 100%;
     }
 
     .marketing-features__img-container {
@@ -547,12 +549,16 @@
         justify-content: center;
     }
 
-    .fiscalization__img {
+    .mob-fiscalization__img {
         margin-top: 2rem;
-        max-width: 70%;
+        max-width: 100%;
     }
     .fiscalization {
         padding: 3rem 0 3rem 0;
+    }
+
+    .medium-fiscalization__img, .fiscalization__img {
+        display: none;
     }
 
     .online-services__img {
@@ -803,9 +809,12 @@
         outline: 5px solid #6B37D4 !important;
         box-shadow: none;
     }
-    .questions__img {
+    .mob-questions__img {
         max-width: 100%;
         padding-top: 2rem;
+    }
+    .medium-questions__img, .questions__img {
+        display: none;
     }
     /* content (end) */
 
@@ -870,6 +879,21 @@
     }
 }
 @media (min-width: 500px) {
+    .medium-delivery-сhange__img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .mob-delivery-сhange__img {
+        display: none;
+    }
+    .medium-fiscalization__img {
+        display: block;
+        margin: 0 auto;
+    }
+    .mob-fiscalization__img {
+        display: none;
+    }
     .header__body {
         padding: 0 5%;
     }
@@ -882,9 +906,6 @@
     }
     .payment__img {
         max-width: 65%;
-    }
-    .delivery-сhange__img {
-        width: 75%;
     }
     .stocks__img {
         max-width: 70%;
@@ -926,8 +947,12 @@
     .accordion-button {
         font-size: 1.2rem !important;
     }
-    .questions__img {
-        max-width: 65%;
+    .medium-questions__img {
+        display: block;
+        margin: 0 auto;
+    }
+    .mob-questions__img {
+        display: none;
     }
     .marketing-features__img-mobile {
         max-width: 60%;
@@ -960,9 +985,7 @@
 }
 
 @media (min-width: 600px) {
-    .delivery-сhange__img {
-        max-width: 65%;
-    }
+
     .stocks__img {
         max-width: 60%;
     }
@@ -1026,6 +1049,17 @@
 }
 
 @media (min-width: 760px) {
+    .mob-banner__img, .mob-fiscalization__img,
+    .medium-fiscalization__img {
+        display: none;
+    }
+    .banner__img, .delivery-сhange__img {
+        display: block;
+    }
+    .medium-delivery-сhange__img {
+        display: none;
+    }
+
     /* header (start) */
     .header__burger {
         display: none;
@@ -1040,7 +1074,7 @@
     }
     .header__link-desk {
         text-decoration: none;
-        margin-right: 1.25rem;
+        margin-right: 0.5rem;
         padding: 0.2rem;
         color: white;
         font-family: 'SansRoundedLightC';
@@ -1145,7 +1179,9 @@
     }
 
     /* SLIDER (END)*/
-
+    .delivery-сhange {
+        padding-bottom: 0;
+    }
     .delivery-сhange__img-container {
         padding-right: 2%;
     }
@@ -1187,12 +1223,16 @@
     .voice-guidance-flex {
         margin-left: -1rem;
     }
+    .payment-devices-info {
+        padding: 4.5% 0 4.5% 8%;;
+    }
     .kindermatic-camera__img,
     .payment-devices__img {
         max-width: 95%;
         min-width: 95%;
         margin-top: 0;
         margin-right: -2rem;
+        padding-top: 0;
     }
     .kindermatic-camera__img-container,
     .payment-devices__img-container {
@@ -1216,6 +1256,7 @@
         padding-bottom: 2rem;
     }
     .fiscalization__img {
+        display: block;
         max-width: 80%;
         margin-left: 7%;
     }
@@ -1503,9 +1544,13 @@
     }
 
     .questions__img {
+        display: block;
         min-width: 95%;
         max-width: 95%;
         padding-top: 0;
+    }
+    .medium-questions__img {
+        display: none;
     }
     .questions__img-container {
         display: flex;
@@ -1551,6 +1596,9 @@
         min-width: 85%;
         max-width: 85%;
     }
+    .header__link-desk {
+        margin-right: 1.25rem;
+    }
 }
 @media(min-width: 880px) {
     .content h2 {
@@ -1586,6 +1634,9 @@
     .payment-devices__img {
         max-width: 90%;
         min-width: 90%;
+    }
+    .payment-devices-info {
+        padding: 6% 0 6% 8%;;
     }
     .vms-info {
         padding: 0 0 0 8%;

@@ -364,6 +364,9 @@
         /*padding-top: 1.5rem;*/
         max-width: 100%;
     }
+    .mob-banner__img {
+        max-width: 100%;
+    }
     .banner__button,
     .online-services__button {
         font-size: 1rem;
